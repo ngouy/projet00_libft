@@ -109,7 +109,7 @@ t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 ** Other
 */
 
-char			*ft_join_free(char *s1, char *s2);
+char				*ft_join_free(char *s1, char *s2);
 int					ft_isspace(int c);
 void				ft_putbin(unsigned int i);
 void				ft_putbase(unsigned int i, char j);
