@@ -6,12 +6,15 @@
 /*   By: ngouy <ngouy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/06 12:37:17 by ngouy             #+#    #+#             */
-/*   Updated: 2014/11/26 12:53:35 by ngouy            ###   ########.fr       */
+/*   Updated: 2015/11/04 17:13:49 by ngouy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Allocate memory for new str of size length and fill it with '\0'
+*/
+
 #include "libft.h"
-#include <stdlib.h>
 
 char		*ft_strnew(size_t size)
 {

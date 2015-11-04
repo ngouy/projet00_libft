@@ -6,12 +6,16 @@
 /*   By: ngouy <ngouy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/06 13:06:49 by ngouy             #+#    #+#             */
-/*   Updated: 2014/11/13 12:19:17 by ngouy            ###   ########.fr       */
+/*   Updated: 2015/11/04 16:52:59 by ngouy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+
+/*
+** Free str as.
+*/
+
 #include "libft.h"
-#include <stdlib.h>
 
 void		ft_strdel(char **as)
 {

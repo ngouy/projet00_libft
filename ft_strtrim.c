@@ -6,9 +6,14 @@
 /*   By: ngouy <ngouy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/06 14:57:54 by ngouy             #+#    #+#             */
-/*   Updated: 2015/02/24 11:02:27 by ngouy            ###   ########.fr       */
+/*   Updated: 2015/11/04 17:28:12 by ngouy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Return a new str fill with s without blank spaces at the beginin and
+** the end of it.
+*/
 
 #include "libft.h"
 

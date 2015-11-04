@@ -6,12 +6,15 @@
 /*   By: ngouy <ngouy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/06 12:29:00 by ngouy             #+#    #+#             */
-/*   Updated: 2015/02/24 10:56:37 by ngouy            ###   ########.fr       */
+/*   Updated: 2015/11/04 16:17:55 by ngouy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** allocate and return a part of memory of a certain size
+*/
+
 #include "libft.h"
-#include <stdlib.h>
 
 void		*ft_memalloc(size_t size)
 {

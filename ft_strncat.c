@@ -6,9 +6,14 @@
 /*   By: ngouy <ngouy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/05 15:40:01 by ngouy             #+#    #+#             */
-/*   Updated: 2015/02/24 11:01:53 by ngouy            ###   ########.fr       */
+/*   Updated: 2015/11/04 17:08:32 by ngouy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Concat s1 with n bytes of s2 in s1.
+** Allocated memory in s2 must be enought long.
+*/
 
 #include "libft.h"
 

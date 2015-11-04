@@ -6,9 +6,14 @@
 /*   By: ngouy <ngouy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/03 12:26:08 by ngouy             #+#    #+#             */
-/*   Updated: 2014/11/13 11:44:44 by ngouy            ###   ########.fr       */
+/*   Updated: 2015/11/04 17:18:50 by ngouy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** The strchr() function locates the last occurrence of c in the string
+** pointed by s.
+*/
 
 #include "libft.h"
 

@@ -6,9 +6,13 @@
 /*   By: ngouy <ngouy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/03 12:27:16 by ngouy             #+#    #+#             */
-/*   Updated: 2014/11/13 11:44:57 by ngouy            ###   ########.fr       */
+/*   Updated: 2015/11/04 17:28:18 by ngouy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Find the first occurence of s2 in s1 and return a pointer on it.
+*/
 
 #include "libft.h"
 

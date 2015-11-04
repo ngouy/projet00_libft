@@ -6,9 +6,14 @@
 /*   By: ngouy <ngouy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/06 11:15:00 by ngouy             #+#    #+#             */
-/*   Updated: 2014/12/01 15:59:19 by ngouy            ###   ########.fr       */
+/*   Updated: 2015/11/04 16:38:05 by ngouy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** same as memcpy but can overlap
+** :http://stackoverflow.com/questions/4415910/memcpy-vs-memmove
+*/
 
 #include "libft.h"
 

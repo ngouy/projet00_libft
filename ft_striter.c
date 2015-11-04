@@ -6,9 +6,13 @@
 /*   By: ngouy <ngouy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/06 13:21:37 by ngouy             #+#    #+#             */
-/*   Updated: 2014/11/13 12:19:57 by ngouy            ###   ########.fr       */
+/*   Updated: 2015/11/04 16:58:26 by ngouy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** apply the fonction f() for byte of the string s
+*/
 
 #include "libft.h"
 

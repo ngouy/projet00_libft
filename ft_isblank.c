@@ -1,38 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcat.c                                        :+:      :+:    :+:   */
+/*   ft_isblank.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ngouy <ngouy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2014/11/05 15:40:01 by ngouy             #+#    #+#             */
-/*   Updated: 2015/11/04 16:46:02 by ngouy            ###   ########.fr       */
+/*   Created: 2015/03/12 10:47:41 by ngouy             #+#    #+#             */
+/*   Updated: 2015/11/04 16:05:48 by ngouy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /*
-** Concat s1 with s2 in s1. Allocated memory in s2 must be enought long.
+** return 1 if c is a blank str, 0 either;
+** NULL considered as blank
 */
 
 #include "libft.h"
 
-char	*ft_strcat(char *s1, const char *s2)
+int					ft_isblank(char *str)
 {
-	char	*s3;
-	size_t	i;
-	int		j;
 
-	s3 = s1;
-	i = 0;
-	j = i;
-	while (s3[j])
-		j++;
-	while (i < ft_strlen(s2))
+	while(str && *str)
 	{
-		s3[j] = s2[i];
-		j++;
-		i++;
+		if (!ft_isspace(*str))
+		{
+			return(0);
+		}
+		str++;
 	}
-	s3[j] = '\0';
-	return (s1);
+	return(1);
 }

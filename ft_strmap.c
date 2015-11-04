@@ -6,9 +6,13 @@
 /*   By: ngouy <ngouy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/06 13:29:21 by ngouy             #+#    #+#             */
-/*   Updated: 2015/02/24 10:56:58 by ngouy            ###   ########.fr       */
+/*   Updated: 2015/11/04 17:07:19 by ngouy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Create an copy of s and apply f on each byte of s.
+*/
 
 #include "libft.h"
 

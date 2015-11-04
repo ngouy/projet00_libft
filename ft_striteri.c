@@ -6,9 +6,15 @@
 /*   By: ngouy <ngouy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/06 13:27:15 by ngouy             #+#    #+#             */
-/*   Updated: 2014/11/13 12:20:19 by ngouy            ###   ########.fr       */
+/*   Updated: 2015/11/04 17:00:57 by ngouy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** apply the fonction f() for byte of the string s,
+** and gives to the function f() the index of the current
+** char wich f() will be apply on.
+*/
 
 #include "libft.h"
 

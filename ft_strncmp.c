@@ -6,9 +6,15 @@
 /*   By: ngouy <ngouy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/03 12:10:13 by ngouy             #+#    #+#             */
-/*   Updated: 2014/11/13 15:57:44 by ngouy            ###   ########.fr       */
+/*   Updated: 2015/11/04 17:10:45 by ngouy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Return 0 if s1 n first bytes are equals to  s2 n first bytes,
+** something else either.
+** See ft_strcmp for more details of the returned value if not equals.
+*/
 
 #include "libft.h"
 

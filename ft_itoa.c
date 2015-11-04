@@ -6,12 +6,15 @@
 /*   By: ngouy <ngouy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/10 18:12:33 by ngouy             #+#    #+#             */
-/*   Updated: 2015/05/27 11:27:05 by ngouy            ###   ########.fr       */
+/*   Updated: 2015/11/04 16:06:19 by ngouy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** The ft_itoa() function return int translated into str
+*/
+
 #include "libft.h"
-#include <stdlib.h>
 
 static void		ft_letsgo(int n, int *sign, char **ret)
 {

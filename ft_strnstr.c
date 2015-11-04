@@ -6,9 +6,13 @@
 /*   By: ngouy <ngouy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/05 13:54:14 by ngouy             #+#    #+#             */
-/*   Updated: 2014/11/13 11:45:25 by ngouy            ###   ########.fr       */
+/*   Updated: 2015/11/04 17:16:13 by ngouy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Find the first occurence of firsts n bytes of s2 in s1
+*/
 
 #include "libft.h"
 

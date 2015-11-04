@@ -6,9 +6,13 @@
 /*   By: ngouy <ngouy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/03 11:14:14 by ngouy             #+#    #+#             */
-/*   Updated: 2015/02/24 10:50:09 by ngouy            ###   ########.fr       */
+/*   Updated: 2015/11/04 16:38:56 by ngouy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Set n byte to c of the allocated memory
+*/
 
 #include "libft.h"
 

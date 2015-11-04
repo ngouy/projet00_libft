@@ -6,12 +6,15 @@
 /*   By: ngouy <ngouy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/11 16:15:33 by ngouy             #+#    #+#             */
-/*   Updated: 2014/11/25 17:57:02 by ngouy            ###   ########.fr       */
+/*   Updated: 2015/11/04 16:12:15 by ngouy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** free memory alocated for the link pointed
+*/
+
 #include "libft.h"
-#include <stdlib.h>
 
 void	ft_lstdelone(t_list **alst, void (*del)(void *, size_t))
 {

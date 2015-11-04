@@ -6,9 +6,16 @@
 /*   By: ngouy <ngouy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/09/01 02:24:43 by ngouy             #+#    #+#             */
-/*   Updated: 2015/05/27 11:16:59 by ngouy            ###   ########.fr       */
+/*   Updated: 2015/11/04 15:28:59 by ngouy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** The ft_atoi() function return str translated into int
+** Return 0 if unable to translate it into int
+** Stops to parse when find something not translatable
+** Doesn't handle integer overflow
+*/
 
 #include "libft.h"
 

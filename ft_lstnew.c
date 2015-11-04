@@ -6,12 +6,15 @@
 /*   By: ngouy <ngouy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/11 14:56:59 by ngouy             #+#    #+#             */
-/*   Updated: 2015/02/24 10:59:02 by ngouy            ###   ########.fr       */
+/*   Updated: 2015/11/04 16:16:45 by ngouy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** create a new link, with a certain allocated memory, set by content_size
+*/
+
 #include "libft.h"
-#include <stdlib.h>
 
 t_list		*ft_lstnew(void const *content, size_t content_size)
 {

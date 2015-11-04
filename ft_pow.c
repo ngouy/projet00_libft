@@ -6,9 +6,13 @@
 /*   By: ngouy <ngouy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/02/24 11:05:35 by ngouy             #+#    #+#             */
-/*   Updated: 2015/03/12 11:23:35 by ngouy            ###   ########.fr       */
+/*   Updated: 2015/11/04 16:40:17 by ngouy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Pow of a number handeling integer overflow -> return 0 if its the case.
+*/
 
 #include "libft.h"
 

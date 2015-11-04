@@ -6,9 +6,14 @@
 /*   By: ngouy <ngouy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/07 14:52:46 by ngouy             #+#    #+#             */
-/*   Updated: 2014/11/25 16:59:00 by ngouy            ###   ########.fr       */
+/*   Updated: 2015/11/04 16:26:58 by ngouy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Find the first occurrence of c in s (of lenght n) and return a pointer
+** to the byte located or NULL if not no such byte exists
+*/
 
 #include "libft.h"
 

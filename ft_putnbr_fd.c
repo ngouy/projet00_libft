@@ -6,12 +6,11 @@
 /*   By: ngouy <ngouy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/11 10:57:05 by ngouy             #+#    #+#             */
-/*   Updated: 2015/05/27 11:32:32 by ngouy            ###   ########.fr       */
+/*   Updated: 2015/11/04 15:57:51 by ngouy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <unistd.h>
 
 void	ft_putnbr_fd(int n, int fd)
 {

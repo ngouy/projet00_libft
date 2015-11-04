@@ -6,12 +6,15 @@
 /*   By: ngouy <ngouy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/06 15:05:46 by ngouy             #+#    #+#             */
-/*   Updated: 2015/03/04 16:47:53 by ngouy            ###   ########.fr       */
+/*   Updated: 2015/11/04 17:25:01 by ngouy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Return a full memory allocated 2 size tab with part of s cutted by c.
+*/
+
 #include "libft.h"
-#include <stdlib.h>
 
 static size_t		ft_nbofwords(char const *s, char c)
 {

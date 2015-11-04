@@ -6,9 +6,15 @@
 /*   By: ngouy <ngouy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/05 15:40:01 by ngouy             #+#    #+#             */
-/*   Updated: 2015/02/24 11:01:32 by ngouy            ###   ########.fr       */
+/*   Updated: 2015/11/04 17:05:06 by ngouy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** The strlcpy() function copies up to size - 1 characters from the
+** NUL-terminated string src to dst, NUL-terminating the result,
+** and return the total length of the string they tried to create.
+*/
 
 #include "libft.h"
 

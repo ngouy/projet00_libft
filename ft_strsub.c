@@ -6,9 +6,13 @@
 /*   By: ngouy <ngouy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/06 14:17:00 by ngouy             #+#    #+#             */
-/*   Updated: 2014/11/13 15:48:17 by ngouy            ###   ########.fr       */
+/*   Updated: 2015/11/04 17:26:48 by ngouy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** return an allocated memory fill with len bytes of s from the star byte of s
+*/
 
 #include "libft.h"
 

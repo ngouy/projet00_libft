@@ -6,9 +6,13 @@
 /*   By: ngouy <ngouy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/03 15:30:12 by ngouy             #+#    #+#             */
-/*   Updated: 2015/02/24 10:50:47 by ngouy            ###   ########.fr       */
+/*   Updated: 2015/11/04 16:28:43 by ngouy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** copy n bytes from <src> to already allocated memory space <dst>
+*/
 
 #include "libft.h"
 

@@ -6,9 +6,15 @@
 /*   By: ngouy <ngouy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/07 15:00:24 by ngouy             #+#    #+#             */
-/*   Updated: 2015/03/12 11:23:01 by ngouy            ###   ########.fr       */
+/*   Updated: 2015/11/04 16:31:31 by ngouy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Compare n first bytes of both strings.
+** Return 0 if s1 and s2 qre identical,
+** otherwise a pointer to the first different bytes.
+*/
 
 #include "libft.h"
 
