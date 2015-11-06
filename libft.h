@@ -6,13 +6,17 @@
 /*   By: ngouy <ngouy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/03 12:14:13 by ngouy             #+#    #+#             */
-/*   Updated: 2015/05/27 12:00:22 by ngouy            ###   ########.fr       */
+/*   Updated: 2015/11/04 15:57:34 by ngouy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 # include <string.h>
+# include <stdlib.h>
+# include <unistd.h>
+
+
 
 /*
 ** defines
@@ -118,6 +122,7 @@ void				ft_put_intlist(t_list *liste);
 int					ft_is_prime(unsigned int i);
 void				ft_lstaddend(t_list **alst, t_list *new);
 int					ft_lstlen(t_list *list);
+int					ft_isblank(char *str);
 
 
 #endif
