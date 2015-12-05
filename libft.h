@@ -16,8 +16,6 @@
 # include <stdlib.h>
 # include <unistd.h>
 
-
-
 /*
 ** defines
 */
@@ -123,6 +121,5 @@ int					ft_is_prime(unsigned int i);
 void				ft_lstaddend(t_list **alst, t_list *new);
 int					ft_lstlen(t_list *list);
 int					ft_isblank(char *str);
-
 
 #endif

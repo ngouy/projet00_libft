@@ -16,9 +16,9 @@
 
 #include "libft.h"
 
-void		ft_strclr(char *s)
+void				ft_strclr(char *s)
 {
-	char *pt;
+	char			*pt;
 
 	if (!s)
 		return ;

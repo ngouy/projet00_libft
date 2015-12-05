@@ -17,7 +17,7 @@
 
 #include "libft.h"
 
-static void		ft_annexe(char *dstc, char *srcc, size_t len)
+static void			ft_annexe(char *dstc, char *srcc, size_t len)
 {
 	srcc += (len - 1);
 	dstc += (len - 1);
@@ -30,10 +30,10 @@ static void		ft_annexe(char *dstc, char *srcc, size_t len)
 	}
 }
 
-void			*ft_memmove(void *dst, void const *src, size_t len)
+void				*ft_memmove(void *dst, void const *src, size_t len)
 {
-	char	*dstc;
-	char	*srcc;
+	char			*dstc;
+	char			*srcc;
 
 	if (!dst || !src || !len)
 		return (NULL);

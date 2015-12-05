@@ -16,7 +16,7 @@
 
 #include "libft.h"
 
-char			*ft_join_free(char *s1, char *s2)
+char				*ft_join_free(char *s1, char *s2)
 {
 	free(s2);
 	return (s1);

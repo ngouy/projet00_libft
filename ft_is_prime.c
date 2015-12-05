@@ -16,7 +16,7 @@
 
 int					ft_is_prime(unsigned int i)
 {
-	unsigned int		cpt;
+	unsigned int	cpt;
 
 	cpt = 3;
 	if (i % 2 == 0)

@@ -16,9 +16,9 @@
 
 #include "libft.h"
 
-void	ft_put_intlist(t_list *lst)
+void				ft_put_intlist(t_list *lst)
 {
-	t_list	*tmp;
+	t_list			*tmp;
 
 	tmp = lst;
 	while (tmp)

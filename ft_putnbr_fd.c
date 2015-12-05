@@ -12,19 +12,19 @@
 
 #include "libft.h"
 
-void	ft_putnbr_fd(int n, int fd)
+void				ft_putnbr_fd(int n, int fd)
 {
 	if (fd < 0)
 		return ;
 	if (n == MIN_INT)
 	{
-		write (fd, MIN_INT_TO_STR, 11);
+		write(fd, MIN_INT_TO_STR, 11);
 		return ;
 	}
 	if (n < 0)
 	{
 		n = -n;
-		write (fd, "-", 1);
+		write(fd, "-", 1);
 	}
 	if (n >= 10)
 	{

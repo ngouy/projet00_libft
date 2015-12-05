@@ -16,9 +16,9 @@
 
 #include "libft.h"
 
-void	ft_lstaddend(t_list **alst, t_list *new)
+void				ft_lstaddend(t_list **alst, t_list *new)
 {
-	t_list		*tmp;
+	t_list			*tmp;
 
 	if (!new)
 		return ;

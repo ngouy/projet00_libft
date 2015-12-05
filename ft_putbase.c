@@ -18,7 +18,7 @@
 
 void				ft_putbase(unsigned int i, char j)
 {
-	char		c;
+	char			c;
 
 	if (j <= 1 || j >= 37)
 	{

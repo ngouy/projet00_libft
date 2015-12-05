@@ -18,8 +18,8 @@
 
 static size_t		ft_nbofwords(char const *s, char c)
 {
-	int		ret;
-	int		i;
+	int				ret;
+	int				i;
 
 	i = 0;
 	ret = i;
@@ -37,7 +37,7 @@ static size_t		ft_nbofwords(char const *s, char c)
 
 static size_t		ft_wordsize(char const *s, int i, char c)
 {
-	size_t		ret;
+	size_t			ret;
 
 	ret = 0;
 	while (s[i] && s[i] != c)
@@ -50,7 +50,7 @@ static size_t		ft_wordsize(char const *s, int i, char c)
 
 static char			**ft_empt(void)
 {
-	char	**ret;
+	char			**ret;
 
 	ret = (char **)malloc(sizeof(char *) * 1 + 1);
 	ret[0] = (char *)malloc(sizeof(char));
@@ -61,10 +61,10 @@ static char			**ft_empt(void)
 
 char				**ft_strsplit(char const *s, char c)
 {
-	char		**ret;
-	int			i;
-	int			j;
-	size_t		size_ret;
+	char			**ret;
+	int				i;
+	int				j;
+	size_t			size_ret;
 
 	if (!s)
 		return (NULL);

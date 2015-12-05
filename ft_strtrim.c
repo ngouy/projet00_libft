@@ -17,11 +17,11 @@
 
 #include "libft.h"
 
-char		*ft_strtrim(char const *s)
+char				*ft_strtrim(char const *s)
 {
-	char	*ret;
-	int		i;
-	int		j;
+	char			*ret;
+	int				i;
+	int				j;
 
 	i = 0;
 	j = 0;

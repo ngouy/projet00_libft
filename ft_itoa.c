@@ -16,41 +16,31 @@
 
 #include "libft.h"
 
-static void		ft_letsgo(int n, int *sign, char **ret)
+char				*ft_itoa(int n)
 {
-	if (n >= 10)
+	int				len;
+	int				pow10;
+	char			*str;
+	char			*ret;
+
+	if ((pow10 = 10) && n == MIN_INT)
+		return (ft_strdup(MIN_INT_TO_STR));
+	len = n < 0 ? 2 : 1;
+	while (n / pow10 && len++)
+		pow10 *= 10;
+	ret = ft_strnew(len - 1);
+	if (((str = ret) || 1) && n < 0)
 	{
-		ft_letsgo(n / 10, sign, ret);
-		(*sign)++;
-		(*ret)[*sign] = n % 10 + 48;
-	}
-	else
-		(*ret)[*sign] = n + 48;
-}
-
-static char		*ft_max(void)
-{
-	char	*ret;
-
-	ret = ft_strdup(MIN_INT_TO_STR);
-	return (ret);
-}
-
-char			*ft_itoa(int n)
-{
-	char	*ret;
-	int		sign;
-
-	if (n == MIN_INT)
-		return (ft_max());
-	sign = 0;
-	ret = ft_strnew(11);
-	if (n < 0)
-	{
-		ret[0] = '-';
+		*str = '-';
+		str++;
 		n = -n;
-		sign = 1;
 	}
-	ft_letsgo(n, &sign, &ret);
+	while (pow10 != 1)
+	{
+		pow10 = pow10 / 10;
+		*str = n / pow10 + 48;
+		str++;
+		n = n % pow10;
+	}
 	return (ret);
 }

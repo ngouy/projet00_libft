@@ -16,9 +16,9 @@
 
 #include "libft.h"
 
-t_list		*ft_lstnew(void const *content, size_t content_size)
+t_list				*ft_lstnew(void const *content, size_t content_size)
 {
-	t_list		*ret;
+	t_list			*ret;
 
 	if (!content)
 		content_size = 0;

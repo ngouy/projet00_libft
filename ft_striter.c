@@ -16,9 +16,9 @@
 
 #include "libft.h"
 
-void		ft_striter(char *s, void (*f)(char*))
+void				ft_striter(char *s, void (*f)(char*))
 {
-	char	*pt;
+	char			*pt;
 
 	if (!s || !f)
 		return ;

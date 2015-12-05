@@ -16,10 +16,10 @@
 
 #include "libft.h"
 
-char		*ft_strnew(size_t size)
+char				*ft_strnew(size_t size)
 {
-	char	*str;
-	size_t	i;
+	char			*str;
+	size_t			i;
 
 	if (size + 1 == 0)
 		return (NULL);

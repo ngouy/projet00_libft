@@ -16,11 +16,11 @@
 
 #include "libft.h"
 
-char	*ft_strcat(char *s1, const char *s2)
+char				*ft_strcat(char *s1, const char *s2)
 {
-	char	*s3;
-	size_t	i;
-	int		j;
+	char			*s3;
+	size_t			i;
+	int				j;
 
 	s3 = s1;
 	i = 0;

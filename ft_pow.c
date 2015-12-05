@@ -16,25 +16,23 @@
 
 #include "libft.h"
 
-static int		ft_wil_overflow(int i, int j)
+static int			ft_wil_overflow(int i, int j)
 {
-	int		k;
+	int				k;
 
 	k = i * j;
 	return (k / j == i ? k : 0);
 }
 
-int				ft_pow(int x, int pow)
+int					ft_pow(int x, int pow)
 {
-	int		ret;
+	int				ret;
 
 	ret = x;
-	if (pow < 0)
+	if (pow < 0 || x == 0)
 		return (0);
 	if (pow == 0)
 		return (1);
-	if (x == 0)
-		return (0);
 	if (pow == 1)
 		return (x);
 	while (pow != 1)

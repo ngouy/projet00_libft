@@ -16,11 +16,11 @@
 
 #include "libft.h"
 
-char	*ft_strstr(const char *s1, const char *s2)
+char				*ft_strstr(const char *s1, const char *s2)
 {
-	int		i;
-	int		k;
-	int		j;
+	int				i;
+	int				k;
+	int				j;
 
 	if (s1[0] == s2[0] && s1[0] == '\0')
 		return ((char *)s1);

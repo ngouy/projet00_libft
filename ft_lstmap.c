@@ -18,11 +18,11 @@
 
 #include "libft.h"
 
-t_list	*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem))
+t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem))
 {
-	t_list		*tmp;
-	t_list		*tmp2;
-	t_list		*ret;
+	t_list			*tmp;
+	t_list			*tmp2;
+	t_list			*ret;
 
 	ret = NULL;
 	if (!lst || !f)

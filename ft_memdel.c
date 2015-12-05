@@ -16,7 +16,7 @@
 
 #include "libft.h"
 
-void		ft_memdel(void **ap)
+void				ft_memdel(void **ap)
 {
 	if (ap && *ap)
 	{

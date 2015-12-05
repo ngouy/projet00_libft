@@ -27,10 +27,10 @@ static size_t		min(size_t a, size_t b)
 
 size_t				ft_strlcat(char *dst, const char *src, size_t size)
 {
-	char	*s3;
-	size_t	i;
-	size_t	len;
-	size_t	j;
+	char			*s3;
+	size_t			i;
+	size_t			len;
+	size_t			j;
 
 	len = (ft_strlen(dst));
 	s3 = dst;

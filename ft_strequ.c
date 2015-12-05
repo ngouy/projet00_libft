@@ -10,16 +10,15 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
 /*
 ** Return 1 if s1 == s2, 0 either
 */
 
 #include "libft.h"
 
-int		ft_strequ(char const *s1, char const *s2)
+int					ft_strequ(char const *s1, char const *s2)
 {
-	int		i;
+	int				i;
 
 	if (!s1 || !s2)
 		return (0);

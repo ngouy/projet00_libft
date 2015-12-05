@@ -10,17 +10,16 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
 /*
 ** Free str as.
 */
 
 #include "libft.h"
 
-void		ft_strdel(char **as)
+void				ft_strdel(char **as)
 {
 	if (!as)
 		return ;
-	free (*as);
+	free(*as);
 	*as = NULL;
 }
