@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: ngouy <ngouy@student.42.fr>                +#+  +:+       +#+         #
+#    By: ngouy <nathangouy@free.fr>                 +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/02/23 10:24:35 by ngouy             #+#    #+#              #
-#    Updated: 2016/02/23 10:25:25 by ngouy            ###   ########.fr        #
+#    Updated: 2017/02/17 18:42:59 by ngouy            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -81,11 +81,18 @@ SRC			= \
 		ft_put_intlist.c\
 		ft_pow.c\
 		ft_is_prime.c\
+		ft_join_free.c\
+		ft_isblank.c\
+		ft_isspace.c\
 		ft_lstaddend.c\
 		ft_lstlen.c\
+		ft_put_str_array.c\
+		ft_parse_args.c\
+		ft_begin_with.c\
 
 OBJ			= $(SRC:.c=.o)
-CFLAGS		= -Wall -Werror -Wextra -ansi -pedantic
+CFLAGS		= -Wall
+# CFLAGS		= -Wall -Werror -Wextra -ansi -pedantic
 OFLAGS		= -O3
 
 RM			= rm -rf
